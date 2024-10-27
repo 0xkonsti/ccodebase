@@ -1,7 +1,7 @@
 #ifndef CORE_STRING_H_
 #define CORE_STRING_H_
 
-#include "core/defines.h"
+#include "ccodebase/core/defines.h"
 
 typedef struct {
     char* data;

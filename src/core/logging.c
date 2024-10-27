@@ -1,8 +1,8 @@
-#include "core/logging.h"
+#include "ccodebase/core/logging.h"
 #include <stdarg.h>
 #include <stdio.h>
-#include "core/ansi.h"
-#include "core/defines.h"
+#include "ccodebase/core/ansi.h"
+#include "ccodebase/core/defines.h"
 
 i32 g_log_level = LOG_LEVEL_DEBUG;
 
