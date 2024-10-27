@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "ccodebase/core/defines.h"
-#include "ccodebase/core/string.h"
 
 string_t const* read_file_to_string(char const* path) {
     FILE* file = fopen(path, "rb");
