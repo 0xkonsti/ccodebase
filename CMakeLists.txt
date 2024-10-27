@@ -18,8 +18,3 @@ else()
 endif()
 
 add_library(ccodebase STATIC ${SRC_FILES})
-
-add_executable(run main.c)
-
-target_link_libraries(run ccodebase)
-
